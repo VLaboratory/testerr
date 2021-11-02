@@ -9,7 +9,7 @@
       "obligation": true,
       "hasDefault": false,
       "valueSchema": "sat_product",
-      "target": "data/s2.zip"
+      "target": "data/sat_product.zip"
  }
   ],
   "outputs": [
