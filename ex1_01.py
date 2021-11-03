@@ -32,8 +32,8 @@ with open(output, "a") as outputfile:
     outputfile.write(file)
 """
 print("Reading...")
-product = ProductIO.readProduct(file)
-#product = ProductIO.readProduct(filename)
+#product = ProductIO.readProduct(file)
+product = ProductIO.readProduct(filename)
 width = product.getSceneRasterWidth()
 height = product.getSceneRasterHeight()
 name = product.getName()
