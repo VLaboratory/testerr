@@ -17,9 +17,9 @@
       "id": "output_file",
       "outputType": "individual",
       "valueType": "value",
-      "description": "The file with time added",
+      "description": "The output file",
       "name": "Output.txt",
-      "valueSchema": "url",
+      "valueSchema": "String",
       "target": "output.txt"
     }
   ]
