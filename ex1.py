@@ -7,12 +7,18 @@ from snappy import ProductIO
 from snappy import ProductUtils
 from snappy import FlagCoding
 
+from pathlib import Path  #test
+
+
 if len(sys.argv) != 2:
-    print("usage: %s <file>" % sys.argv[0])
+    print("usage: %s <file>" % sys.argv[1])
     sys.exit(1)
 
 file = sys.argv[1]
 
+print(file)
+
+"""
 print("Reading...")
 product = ProductIO.readProduct(file)
 width = product.getSceneRasterWidth()
@@ -34,3 +40,4 @@ with open(output, "a") as outputfile:
     outputfile.write("Start time:  " + str(product.getStartTime())+"\n")
     outputfile.write("End time:    " + str(product.getEndTime())+"\n")
     outputfile.write("Bands:       %s" % (list(band_names))+"\n")
+"""
