@@ -19,7 +19,7 @@
       "valueType": "value",
       "description": "The output file",
       "name": "Output.txt",
-      "valueSchema": "String",
+      "valueSchema": "url",
       "target": "output.txt"
     }
   ]
