@@ -18,6 +18,9 @@ file = sys.argv[1]
 
 print(file)
 
+output = "output.txt"
+with open(output, "a") as outputfile:
+    outputfile.write(file)
 """
 print("Reading...")
 product = ProductIO.readProduct(file)
