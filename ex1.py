@@ -1,4 +1,5 @@
 
+import os
 import sys
 import numpy
 from snappy import Product
@@ -18,12 +19,21 @@ file = sys.argv[1]
 
 print(file)
 
+#dirs = os.listdir( path )
+# This would print all the files and directories
+#for file in dirs:
+#   print(file)
+dirname,filename=os.path.split(file)
+print(filename)
+
+"""
 output = "output.txt"
 with open(output, "a") as outputfile:
     outputfile.write(file)
 """
 print("Reading...")
 product = ProductIO.readProduct(file)
+print(product)
 width = product.getSceneRasterWidth()
 height = product.getSceneRasterHeight()
 name = product.getName()
@@ -43,4 +53,3 @@ with open(output, "a") as outputfile:
     outputfile.write("Start time:  " + str(product.getStartTime())+"\n")
     outputfile.write("End time:    " + str(product.getEndTime())+"\n")
     outputfile.write("Bands:       %s" % (list(band_names))+"\n")
-"""

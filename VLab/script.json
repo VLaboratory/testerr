@@ -1,13 +1,13 @@
 {
   "scripts": [
     {
-      "repoPath": "run.sh",
-      "targetPath": "run.sh",
+      "repoPath": "run2.sh",
+      "targetPath": "run2.sh",
       "pathType": "FILE"
  },
  {
-   "repoPath": "ex1_01.py",
-   "targetPath": "ex1_01.py",
+   "repoPath": "ex1.py",
+   "targetPath": "ex1.py",
    "pathType": "FILE"
 }
   ]
