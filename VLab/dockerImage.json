@@ -10,7 +10,7 @@
       "-c"
  ],
     "command": [
-      "source activate snappyEnv && ./run.sh"
+      "source activate snappyEnv && ./run2.sh"
  ]
   }
 }
