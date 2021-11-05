@@ -32,7 +32,7 @@ with open(output, "a") as outputfile:
     outputfile.write(file)
 """
 print("Reading...")
-product = ProductIO.readProduct(file)
+product = ProductIO.readProduct(filename)
 print(product)
 width = product.getSceneRasterWidth()
 height = product.getSceneRasterHeight()
